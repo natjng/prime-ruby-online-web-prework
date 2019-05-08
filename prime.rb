@@ -4,4 +4,3 @@ def prime?(n)
   Math.sqrt(n).to_i.downto(2).each {|i| return false if n % i == 0}
   true
 end
-end
